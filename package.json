@@ -1,16 +1,22 @@
 {
   "name": "happy-typescript-hacking",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/main.js",
   "repository": "git@github.com:wirob/happy-typescript-hacking.git",
   "author": "wirob <c.william.robertson@gmail.com>",
   "license": "MIT",
   "private": false,
   "devDependencies": {
     "@types/node": "^12.11.1",
+    "nodemon": "^1.19.4",
     "prettier": "^1.18.2",
     "tslint": "^5.20.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.6.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon ./dist",
+    "watch": "tsc --watch"
   }
 }
