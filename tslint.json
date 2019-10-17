@@ -1,0 +1,15 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:latest", "tslint-config-prettier"],
+  "rules": {
+    "quotemark": false,
+    "no-console": false,
+    "semicolon": false,
+    "ordered-imports": true,
+    "interface-name": true,
+    "arrow-parens": false,
+    "trailing-comma": false,
+    "no-trailing-whitespace": false,
+    "object-literal-sort-keys": false
+  }
+}
