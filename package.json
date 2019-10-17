@@ -1,0 +1,9 @@
+{
+  "name": "happy-typescript-hacking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wirob/happy-typescript-hacking.git",
+  "author": "wirob <c.william.robertson@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
